@@ -34,6 +34,17 @@ if (isCitizen && age > 18) {
   console.log("Maybe going outside isn't such a great idea…");
 }*/
 
-if (!raining) {
+/*if (!raining) {
   console.log("Leave your umbrella at home!");
-}
+}*/
+const whichSchool  = function (age) {
+  if(age<13){
+    return 'Elementary School';
+  } else if(age>12 && age<19){
+    return 'Secondary School'
+  } else {
+    return 'Lighthouse Labs'
+  }
+};
+
+console.log(whichSchool(20));
