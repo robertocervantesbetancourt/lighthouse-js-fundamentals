@@ -7,3 +7,10 @@ const sayHello = function(name){
 sayHello('Laura');
 sayHello('Paco');
 sayHello('Louis');
+
+const returnSayHello = function(name){
+  return 'Hello, ' + name;
+}
+
+const greeting = returnSayHello('Hugo');
+console.log(greeting);
